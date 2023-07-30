@@ -1,0 +1,137 @@
+.nav__left h1 {
+  color: #36536b;
+  font-family: DM Serif Display;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72px; /* 100% */
+  letter-spacing: -0.554px;
+  max-width: 546px;
+  padding-bottom: 21px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav__right img {
+  max-width: 257px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.nav__left p {
+  color: #6c8294;
+  font-family: Public Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 16px;
+}
+.nav__email {
+  border-radius: 24px;
+  max-width: 445px;
+  border: none;
+  margin-top: 50px;
+  position: relative;
+}
+.nav__input {
+  color: #36536b;
+  font-family: Public Sans;
+  font-size: 15px;
+  font-style: normal;
+  border-radius: 24px;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  padding: 16px 103px 14px 27px;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  width: 95%;
+}
+.nav__btn {
+  color: #fbfcfe;
+  font-family: Public Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 24px;
+  background: #ba4270;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 15px 30px;
+}
+@media (max-width: 815px) {
+  .nav__left h1 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 796px) {
+  .navbar {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .nav__left h1 {
+    color: #36536b;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -0.369px;
+    max-width: 573px;
+    padding-bottom: 22px;
+  }
+}
+
+@media (max-width: 570px) {
+  .nav__email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // position:unset;
+    button {
+      position: unset;
+      width: 421px;
+      margin-top: 30px;
+    }
+  }
+}
+
+@media (max-width: 405px) {
+  .nav__input {
+    color: #36536b;
+    font-family: Public Sans;
+    font-size: 13px;
+    font-style: normal;
+    border-radius: 24px;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    padding: 16px 103px 14px 27px;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    width: 96%;
+  }
+  .nav__email button {
+    position: unset;
+    max-width: 310px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 24px;
+  }
+  .nav__left h1 {
+    color: #36536b;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 112.5% */
+    letter-spacing: -0.246px;
+    max-width: 327px;
+    margin-bottom: -24px;
+  }
+}
